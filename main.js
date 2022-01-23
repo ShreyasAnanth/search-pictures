@@ -13,5 +13,6 @@ let deck = new Reveal({
     plugins: [Markdown],
     width: 960,
     height: 1000,
+    autoSlide: 2000,
 });
 deck.initialize();
